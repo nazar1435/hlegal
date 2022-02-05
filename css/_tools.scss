@@ -1,0 +1,9 @@
+@mixin flex($flow, $justify) {
+    display: flex;
+    flex-flow: $flow;
+    justify-content: $justify;
+}
+/////////////////////////////////////////////
+
+$size: 100%;
+$colorFirst: #fff;
