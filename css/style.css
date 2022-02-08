@@ -302,6 +302,7 @@ a {
     width: 70%;
     margin: 118px 0;
     font-size: 2.375rem;
+    font-weight: 700;
     line-height: 2.875rem;
     text-align: center;
     color: #fff;
@@ -409,31 +410,31 @@ a {
     line-height: 1.625rem;
     color: #fff;
   }
-  .wrapper .main {
+  .wrapper .section__person {
     width: 85%;
     margin-left: 7.5%;
   }
-  .wrapper .main .carousel .carousel-indicators button {
+  .wrapper .section__person .carousel .carousel-indicators button {
     margin: 8px;
     width: 16px;
     height: 16px;
     border-radius: 50%;
     background-color: #24a3ff;
   }
-  .wrapper .main .carousel .carousel-inner {
+  .wrapper .section__person .carousel .carousel-inner {
     height: 1218px;
   }
-  .wrapper .main .carousel .carousel-inner .carousel-item {
+  .wrapper .section__person .carousel .carousel-inner .carousel-item {
     background: #f5f5fa;
     border-radius: 10px;
     margin-top: 51px;
   }
-  .wrapper .main .carousel .carousel-inner .carousel-item .box__person {
+  .wrapper .section__person .carousel .carousel-inner .carousel-item .box__person {
     width: 80%;
     margin-left: 10%;
     margin-top: 25px;
   }
-  .wrapper .main .carousel .carousel-inner .carousel-item .box__person .chapter a {
+  .wrapper .section__person .carousel .carousel-inner .carousel-item .box__person .chapter a {
     font-size: 0.875rem;
     line-height: 1.0625rem;
     letter-spacing: 1px;
@@ -442,7 +443,7 @@ a {
     text-transform: uppercase;
     color: #24A3FF;
   }
-  .wrapper .main .carousel .carousel-inner .carousel-item .box__person .person__desription {
+  .wrapper .section__person .carousel .carousel-inner .carousel-item .box__person .person__desription {
     font-weight: bold;
     font-size: 1.87rem;
     line-height: 2.3125rem;
@@ -451,7 +452,7 @@ a {
     background-clip: text;
     background-image: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
   }
-  .wrapper .main .carousel .carousel-inner .carousel-item .box__person .person__name {
+  .wrapper .section__person .carousel .carousel-inner .carousel-item .box__person .person__name {
     margin-top: 33px;
     margin-bottom: 6px;
     font-weight: bold;
@@ -459,7 +460,7 @@ a {
     line-height: 1.25rem;
     color: #B3B3BA;
   }
-  .wrapper .main .carousel .carousel-inner .carousel-item .box__person .person__specifics {
+  .wrapper .section__person .carousel .carousel-inner .carousel-item .box__person .person__specifics {
     margin-bottom: 30px;
     font-weight: normal;
     font-size: 0.875rem;
@@ -486,6 +487,76 @@ a {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #323264;
+  }
+  .wrapper .section__publication {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #F5F5FA;
+  }
+  .wrapper .section__publication a {
+    width: 85%;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    color: #24A3FF;
+  }
+  .wrapper .section__publication h2 {
+    width: 85%;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1.875rem;
+    line-height: 2.3125rem;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  }
+  .wrapper .section__publication .publication {
+    width: 85%;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+  .wrapper .section__publication .publication h3 {
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 27px;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #24A3FF;
+  }
+  .wrapper .section__publication .publication h4 {
+    width: 80%;
+    margin: 15px 30px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    color: #B3B3BA;
+    border-bottom: 4px solid #E6E6F0;
+  }
+  .wrapper .section__publication .publication p {
+    width: 80%;
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: #000000;
+    margin-bottom: 28px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -43,6 +43,7 @@
                     width: 70%;
                     margin: 118px 0;
                     font-size: 2.375rem;
+                    font-weight: 700;
                     line-height: 2.875rem;
                     text-align: center;
                     color: $colorFirst;
@@ -162,7 +163,7 @@
             }
         }
 
-        .main {
+        .section__person {
             width: 85%;
             margin-left: 7.5%;
 
@@ -254,6 +255,76 @@
                 letter-spacing: 1px;
                 text-transform: uppercase;
                 color: rgba(50, 50, 100, 1);
+            }
+        }
+
+        .section__publication {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background: #F5F5FA;
+
+            a {
+                width: 85%;
+                margin-top: 30px;
+                font-weight: bold;
+                font-size: 0.875rem;
+                line-height: 1.0625rem;
+                letter-spacing: 0.0625rem;
+                text-transform: uppercase;
+                color: #24A3FF;
+            }
+
+            h2 {
+                width: 85%;
+                margin-top: 5px;
+                font-weight: bold;
+                font-size: 1.875rem;
+                line-height: 2.3125rem;
+                color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                background-image: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+            }
+
+            .publication {
+                width: 85%;
+                margin-top: 30px;
+                background: #FFFFFF;
+                border-radius: 10px;
+
+                h3 {
+                    width: 80%;
+                    margin-left: 30px;
+                    margin-top: 27px;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    line-height: 1.25rem;
+                    color: #24A3FF;
+                }
+
+                h4 {
+                    width: 80%;
+                    margin: 15px 30px;
+                    padding-bottom: 15px;
+                    font-weight: bold;
+                    font-size: 0.75rem;
+                    line-height: 0.9375rem;
+                    letter-spacing: 0.0625rem;
+                    text-transform: uppercase;
+                    color: #B3B3BA;
+                    border-bottom: 4px solid #E6E6F0;
+                }
+
+                p {
+                    width: 80%;
+                    margin-left: 30px;
+                    font-weight: normal;
+                    font-size: 0.875rem;
+                    line-height: 1.375rem;
+                    color: #000000;
+                    margin-bottom: 28px;
+                }
             }
         }
 
