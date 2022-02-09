@@ -332,7 +332,7 @@
 
         .footer__wrapper {
             background: #F5F5FA;
-            
+
             .footer {
                 display: flex;
                 flex-direction: column;
@@ -394,4 +394,31 @@
     }
 
 
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        .background {
+            .decoration__element {
+                position: absolute;
+                width: 100%;
+                z-index: 1;
+                top: 0;
+                left: 13%;
+
+                .unit__first {
+                    width: 54%;
+                    position: absolute;
+                    // top: 0;
+                }
+
+                .unit__last {
+                    width: 24%;
+                    position: absolute;
+                    top: 260px;
+                    left: 20.8%;
+                }
+            }
+        }
+    }
 }

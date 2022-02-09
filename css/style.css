@@ -175,9 +175,9 @@ a {
     background-color: #ec6f5d;
   }
   .wrapper .background .header .header__burger {
-    position: relative;
-    top: -28px;
-    left: 89%;
+    position: absolute;
+    top: 68px;
+    right: 6%;
     display: block;
     width: 18px;
     height: 20px;
@@ -614,6 +614,26 @@ a {
     font-size: 1rem;
     line-height: 1.25rem;
     color: #B3B3BA;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper .background .decoration__element {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 13%;
+  }
+  .wrapper .background .decoration__element .unit__first {
+    width: 54%;
+    position: absolute;
+  }
+  .wrapper .background .decoration__element .unit__last {
+    width: 24%;
+    position: absolute;
+    top: 260px;
+    left: 20.8%;
   }
 }
 /*# sourceMappingURL=style.css.map */
