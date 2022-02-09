@@ -262,7 +262,6 @@ a {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    height: 19000px;
   }
   .wrapper .background {
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
@@ -500,6 +499,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     background: #F5F5FA;
+    padding-bottom: 34px;
   }
   .wrapper .section__publication a {
     width: 85%;
@@ -557,6 +557,63 @@ a {
     line-height: 1.375rem;
     color: #000000;
     margin-bottom: 28px;
+  }
+  .wrapper .footer__wrapper {
+    background: #F5F5FA;
+  }
+  .wrapper .footer__wrapper .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 30px;
+    border-top: 2px solid #E6E6F0;
+  }
+  .wrapper .footer__wrapper .footer .location__contact {
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .wrapper .footer__wrapper .footer .map__link {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    color: #24A3FF;
+  }
+  .wrapper .footer__wrapper .footer .social__networking {
+    margin-top: 20px;
+  }
+  .wrapper .footer__wrapper .footer .contact__number {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #46466E;
+  }
+  .wrapper .footer__wrapper .footer .contact__mail {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #24A3FF;
+  }
+  .wrapper .footer__wrapper .footer .copyright {
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #B3B3BA;
   }
 }
 /*# sourceMappingURL=style.css.map */
