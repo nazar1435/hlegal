@@ -339,6 +339,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     border-bottom: solid 4px rgba(255, 255, 255, 0.3);
+    padding-bottom: 33px;
   }
   .wrapper .background .section__description .specifications .specifications__item {
     color: #b3b3ba;
@@ -351,9 +352,6 @@ a {
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
-  }
-  .wrapper .background .section__description .specifications .specifications__item:last-of-type {
-    margin-bottom: 33px;
   }
   .wrapper .background .section__description .section__titel {
     margin-top: 27px;
@@ -619,21 +617,98 @@ a {
 
 @media screen and (min-width: 768px) {
   .wrapper .background .decoration__element {
-    position: absolute;
     width: 100%;
-    z-index: 1;
-    top: 0;
-    left: 13%;
   }
   .wrapper .background .decoration__element .unit__first {
-    width: 54%;
-    position: absolute;
+    width: 62%;
+    position: relative;
+    top: 0;
+    left: -10%;
+    z-index: 2;
   }
   .wrapper .background .decoration__element .unit__last {
-    width: 24%;
     position: absolute;
-    top: 260px;
-    left: 20.8%;
+    width: 60%;
+    top: 450px;
+    left: 25.5%;
+  }
+  .wrapper .background .section .main__titel {
+    width: 100%;
+    margin-top: 340px;
+  }
+  .wrapper .background .section .fa-angle-down {
+    top: 391px;
+    font-size: 1.7rem;
+    padding: 0.9% 1.5%;
+  }
+  .wrapper .background .section__description {
+    margin-top: 298px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 55px;
+  }
+  .wrapper .background .section__description .specifications {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: none;
+        -ms-flex-align: none;
+            align-items: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 11px;
+  }
+  .wrapper .background .section__description .specifications .specifications__item {
+    font-size: 2.375rem;
+    line-height: 2.875rem;
+  }
+  .wrapper .background .section__description .section__titel {
+    margin-top: 60px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .wrapper .background .section__description .section__text {
+    font-size: 1.1875rem;
+  }
+  .wrapper .background .section__description a {
+    margin-top: 58px;
+  }
+  .wrapper .background .section__description a .fa {
+    font-size: 0.76rem;
+  }
+  .wrapper .background .section__description h4 {
+    font-size: 2.375rem;
+    line-height: 2.875rem;
+  }
+  .wrapper .background .section__description .box__description {
+    margin-top: 60px;
+    width: 45.3%;
+  }
+  .wrapper .background .section__description .box__description .description__titel {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 1.375rem;
+    line-height: 1.68rem;
+    color: #24A3FF;
+  }
+  .wrapper .background .section__description .box__description .description__text {
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #fff;
   }
 }
 /*# sourceMappingURL=style.css.map */
