@@ -187,7 +187,11 @@
                         .img__mobile {
                             width: 100%;
                         }
-                        .tablet__sd {
+
+                        .tablet__sd,
+                        .tablet__hd,
+                        .desktop__hd,
+                        .desktop__sd {
                             position: absolute;
                             top: -9999px;
                             left: -9999px;
@@ -247,12 +251,12 @@
 
         }
 
-        .section__partner {
+        .partner {
             display: flex;
             flex-direction: column;
             align-items: center;
 
-            h2 {
+            .partner__titel {
                 margin: 28px 0;
                 font-weight: bold;
                 font-size: 0.875rem;
@@ -518,86 +522,35 @@
             margin-left: 7.5%;
 
             .carousel {
-                .carousel-indicators {
-                    button {
-                        margin: 8px;
-                        width: 16px;
-                        height: 16px;
-                        border-radius: 50%;
-                        background-color: rgba(36, 163, 255, 1);
-
-
-                    }
-                }
-
                 .carousel-inner {
-                    height: 1218px;
-
+                    height: 1065px;
                     .carousel-item {
-                        background: rgba(245, 245, 250, 1);
-                        border-radius: 10px;
-                        margin-top: 51px;
-
-                        
                         .tablet__sd {
                             width: 100%;
                             position: relative;
                             top: 0;
                             left: 0;
                         }
-                        .img__mobile {
+
+                        .img__mobile,
+                        .tablet__hd,
+                        .desktop__hd,
+                        .desktop__sd {
                             position: absolute;
                             top: -9999px;
                             left: -9999px;
                         }
 
                         .box__person {
-                            img {
-                                width: 100%;
-                            }
-                            width: 80%;
-                            margin-left: 10%;
-                            margin-top: 25px;
-
-                            .chapter {
-                                a {
-                                    font-size: 0.875rem;
-                                    line-height: 1.0625rem;
-                                    letter-spacing: 1px;
-                                    font-style: normal;
-                                    text-align: left;
-                                    text-transform: uppercase;
-                                    color: #24A3FF;
-                                }
-                            }
-
+                            width: 90%;
+                            margin-left: 5%;
+                           
+                            
                             .person__desription {
-                                font-weight: bold;
-                                font-size: 1.87rem;
-                                line-height: 2.3125rem;
-                                color: transparent;
-                                -webkit-background-clip: text;
-                                background-clip: text;
-                                background-image: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
-
+                                font-size: 2.375rem;
+                                line-height: 2.875rem;
                             }
 
-                            .person__name {
-                                margin-top: 33px;
-                                margin-bottom: 6px;
-                                font-weight: bold;
-                                font-size: 1rem;
-                                line-height: 1.25rem;
-                                color: #B3B3BA;
-                            }
-
-                            .person__specifics {
-                                margin-bottom: 30px;
-                                font-weight: normal;
-                                font-size: 0.875rem;
-                                line-height: 1.375rem;
-                                color: #B3B3BA;
-                            }
                         }
 
                     }
