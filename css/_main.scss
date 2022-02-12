@@ -255,6 +255,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+
             .clients__titel {
                 margin: 28px 0;
                 font-weight: bold;
@@ -264,72 +265,79 @@
                 text-transform: uppercase;
                 color: rgba(50, 50, 100, 1);
             }
+
             .img__wrapper {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
                 width: 100%;
 
                 .color__block {
                     width: 100%;
-                    // height: 120px;
+                    height: 120px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    img {
-                        padding: 12% 0;
-                    }
                 }
 
                 .hilel {
                     background: #1C4280;
                 }
+
                 .wanna-biz {
                     background: #143646;
 
                 }
+
                 .tapgerine {
                     background: linear-gradient(0deg, #F48B30, #F48B30)
-
                 }
+
                 .look {
                     background: #9E4DC3;
 
                 }
+
                 .orange {
                     background: #FD9339;
 
                 }
+
                 .adtelige {
                     background: #E2E2E4;
 
                 }
+
                 .clicky {
                     background: #C71C36;
                     display: none;
 
                 }
+
                 .eco-lease {
                     background: #DCF3F9;
                     display: none;
                 }
+
                 .infra-tek {
                     background: #EAEAEA;
                     display: none;
                 }
+
                 .city-park {
                     background: #282240;
                     display: none;
                 }
+
                 .art-print {
                     background: #1D4568;
                     display: none;
                 }
+
                 .ultimate-card {
                     background: #000000;
                     display: none;
                 }
-                
+
             }
         }
 
@@ -363,45 +371,55 @@
                 background-image: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
             }
 
-            .publication {
-                width: 85%;
-                margin-top: 30px;
-                background: #FFFFFF;
-                border-radius: 10px;
+            .publication__box {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
 
-                h3 {
-                    width: 80%;
-                    margin-left: 30px;
-                    margin-top: 27px;
-                    font-weight: bold;
-                    font-size: 1rem;
-                    line-height: 1.25rem;
-                    color: #24A3FF;
+                .publication {
+                    width: 85%;
+                    margin-top: 30px;
+                    background: #FFFFFF;
+                    border-radius: 10px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    h3 {
+                        width: 80%;
+                        margin-left: 30px;
+                        margin-top: 27px;
+                        font-weight: bold;
+                        font-size: 1rem;
+                        line-height: 1.25rem;
+                        color: #24A3FF;
+                    }
+
+                    h4 {
+                        width: 80%;
+                        margin: 15px 30px;
+                        padding-bottom: 15px;
+                        font-weight: bold;
+                        font-size: 0.75rem;
+                        line-height: 0.9375rem;
+                        letter-spacing: 0.0625rem;
+                        text-transform: uppercase;
+                        color: #B3B3BA;
+                        border-bottom: 4px solid #E6E6F0;
+                    }
+
+                    p {
+                        width: 80%;
+                        margin-left: 30px;
+                        font-weight: normal;
+                        font-size: 0.875rem;
+                        line-height: 1.375rem;
+                        color: #000000;
+                        margin-bottom: 28px;
+                    }
+
                 }
-
-                h4 {
-                    width: 80%;
-                    margin: 15px 30px;
-                    padding-bottom: 15px;
-                    font-weight: bold;
-                    font-size: 0.75rem;
-                    line-height: 0.9375rem;
-                    letter-spacing: 0.0625rem;
-                    text-transform: uppercase;
-                    color: #B3B3BA;
-                    border-bottom: 4px solid #E6E6F0;
-                }
-
-                p {
-                    width: 80%;
-                    margin-left: 30px;
-                    font-weight: normal;
-                    font-size: 0.875rem;
-                    line-height: 1.375rem;
-                    color: #000000;
-                    margin-bottom: 28px;
-                }
-
             }
 
         }
@@ -590,6 +608,7 @@
             .carousel {
                 .carousel-inner {
                     height: 1065px;
+
                     .carousel-item {
                         .tablet__sd {
                             width: 100%;
@@ -610,8 +629,8 @@
                         .box__person {
                             width: 90%;
                             margin-left: 5%;
-                           
-                            
+
+
                             .person__desription {
                                 font-size: 2.375rem;
                                 line-height: 2.875rem;
@@ -627,29 +646,105 @@
 
         }
 
-        // .partner {
-            
-        //     .partner__titel {
-        //         margin: 28px 0;
-        //         font-weight: bold;
-        //         font-size: 0.875rem;
-        //         line-height: 1.06rem;
-        //         letter-spacing: 1px;
-        //         text-transform: uppercase;
-        //         color: rgba(50, 50, 100, 1);
-        //     }
-        //     .img__wrapper {
-        //         display: flex;
-        //         flex-direction: row;
-        //         align-items: center;
-        //         flex-wrap: wrap;
-                
-        //         img {
-        //             width: 33.3333333%;
-        //             // size: ;
-                    
-        //         }
-        //     }
-        // }
+        .clients {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .clients__titel {
+                margin: 28px 0;
+                font-weight: bold;
+                font-size: 0.875rem;
+                line-height: 1.06rem;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: rgba(50, 50, 100, 1);
+            }
+
+            .img__wrapper {
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .color__block {
+                    width: 33.3333%;
+                }
+
+                .clicky {
+                    display: flex;
+
+                }
+
+                .eco-lease {
+                    display: flex;
+                }
+
+                .infra-tek {
+                    display: flex;
+                }
+
+                .city-park {
+                    display: flex;
+                }
+
+                .art-print {
+                    display: flex;
+                }
+
+                .ultimate-card {
+                    display: flex;
+                }
+
+            }
+        }
+
+        .section__publication {
+
+
+            a {
+                width: 85%;
+                margin-top: 30px;
+                font-size: 0.875rem;
+
+            }
+
+            h2 {
+                width: 85%;
+                margin-top: 10px;
+                font-size: 2.375rem;
+                line-height: 2.875rem;
+
+            }
+
+            .publication__box {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: row;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                width: 90%;
+
+
+                .publication {
+                    display: block;
+                    width: 45%;
+                    height: 514px;
+                    margin-top: 30px;
+
+
+                    &:last-of-type {
+                        width: 94%;
+                        height: 388px;
+                        img {
+                            width: 648px;
+height: 200px;
+                        }
+                    }
+
+                }
+            }
+
+
+
+        }
     }
 }
