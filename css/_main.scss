@@ -534,7 +534,332 @@
 
                 .main__titel {
                     width: 100%;
-                    margin-top: 340px;
+                    margin-top: 300px;
+
+                }
+
+                .fa-angle-down {
+                    top: 391px;
+                    font-size: 1.7rem;
+                    padding: 0.9% 1.5%;
+                }
+
+
+            }
+
+            .section__description {
+                margin-top: 298px;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-bottom: 55px;
+
+                .specifications {
+
+                    flex-wrap: wrap;
+                    align-items: none;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding-bottom: 11px;
+
+                    .specifications__item {
+                        font-size: 2.375rem;
+                        line-height: 2.875rem;
+                    }
+                }
+
+                .section__titel {
+                    margin-top: 60px;
+                    font-size: 30px;
+                    line-height: 37px;
+                }
+
+                .section__text {
+                    font-size: 1.1875rem;
+                }
+
+                a {
+                    margin-top: 58px;
+
+                    .fa {
+                        font-size: 0.76rem;
+                    }
+                }
+
+                h4 {
+                    font-size: 2.375rem;
+                    line-height: 2.875rem;
+                }
+
+                .box__description {
+                    margin-top: 60px;
+                    width: 45.3%;
+
+
+                    .description__titel {
+                        margin-top: 25px;
+                        font-weight: bold;
+                        font-size: 1.375rem;
+                        line-height: 1.68rem;
+                        color: #24A3FF;
+                    }
+
+                    .description__text {
+                        margin-top: 19px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 1rem;
+                        line-height: 1.625rem;
+                        color: $colorFirst;
+                    }
+
+                }
+            }
+        }
+
+        .section__person {
+            width: 85%;
+            margin-left: 7.5%;
+
+            .carousel {
+                .carousel-inner {
+                    height: 1065px;
+
+                    .carousel-item {
+                        .tablet__sd {
+                            width: 100%;
+                            position: relative;
+                            top: 0;
+                            left: 0;
+                        }
+
+                        .img__mobile,
+                        .tablet__hd,
+                        .desktop__hd,
+                        .desktop__sd {
+                            position: absolute;
+                            top: -9999px;
+                            left: -9999px;
+                        }
+
+                        .box__person {
+                            width: 90%;
+                            margin-left: 5%;
+
+
+                            .person__desription {
+                                font-size: 2.375rem;
+                                line-height: 2.875rem;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .clients {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .clients__titel {
+                margin: 28px 0;
+                font-weight: bold;
+                font-size: 0.875rem;
+                line-height: 1.06rem;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: rgba(50, 50, 100, 1);
+            }
+
+            .img__wrapper {
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .color__block {
+                    width: 33.3333%;
+                }
+
+                .clicky {
+                    display: flex;
+
+                }
+
+                .eco-lease {
+                    display: flex;
+                }
+
+                .infra-tek {
+                    display: flex;
+                }
+
+                .city-park {
+                    display: flex;
+                }
+
+                .art-print {
+                    display: flex;
+                }
+
+                .ultimate-card {
+                    display: flex;
+                }
+
+            }
+        }
+
+        .section__publication {
+
+
+            a {
+                width: 85%;
+                margin-top: 30px;
+                font-size: 0.875rem;
+
+            }
+
+            h2 {
+                width: 85%;
+                margin-top: 10px;
+                font-size: 2.375rem;
+                line-height: 2.875rem;
+
+            }
+
+            .publication__box {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: row;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                width: 90%;
+
+
+                .publication {
+                    width: 45%;
+                    height: 514px;
+
+
+                    &:last-of-type {
+                        width: 94%;
+                        height: 388px;
+                        h4 {
+                            width: 90%;
+                        }
+                        p {
+                            width: 91%;
+                        }
+                        
+                        .third-publication {
+                            background-image:  url(../img/publications/publication_img_3.svg);
+                            background-position: 0 -90px ;
+                        }
+                    }
+
+                }
+            }
+
+
+
+        }
+
+        .footer__wrapper {
+            background: #F5F5FA;
+            width: 100%;
+
+            .footer {
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding-top: 10px;
+                width: 85%;
+                margin-left: 7.5%;
+
+                .location__contact,
+                .map__link,
+                .copyright,
+                .fa-circle:first-of-type {
+                    margin-top: 17px;
+                }
+                
+                .location__contact {
+                    width: 30.5%;
+                    order: -2;
+                    
+                }
+                
+                .map__link {
+                    order: -2;
+                    
+                }
+                .copyright {
+                    order: -1;
+                    margin-left: 14%;
+                }
+                
+                .fa-circle {
+                    margin: 0;
+                    display: inline;
+                    font-size: 0.5rem;
+                    color: #B3B3BA;
+                    margin-right: 1.5%;
+                    margin-left: 1.5%;
+                    &:first-of-type {
+                        order: -2;
+                    }
+                    
+                }
+
+                .social__networking,
+                .contact__number,
+                .contact__mail,
+                .fa-circle:nth-of-type(2),
+                .fa-circle:nth-of-type(3) {
+                    margin-top: 22px;
+                    margin-bottom: 25px;
+                }
+                
+
+
+
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        .main {
+            margin-bottom: 30px;
+
+            .decoration__element {
+                width: 100%;
+
+                .unit__first {
+                    width: 62%;
+                    position: relative;
+                    top: 0;
+                    left: -10%;
+                    z-index: 2;
+                }
+
+                .unit__last {
+                    position: absolute;
+                    width: 60%;
+                    top: 450px;
+                    left: 25.5%;
+                }
+            }
+
+            .section {
+
+                .main__titel {
+                    width: 100%;
+                    // margin-top: 350px;
 
                 }
 
