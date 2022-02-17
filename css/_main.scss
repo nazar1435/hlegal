@@ -1368,3 +1368,232 @@
 
     }
 }
+
+@media screen and (min-width: 1920px) {
+    .wrapper {
+        .section__main {
+            margin-bottom: 30px;
+
+            .decoration__element {
+
+                .unit__first {
+                    width: 23%;
+                    left: 27.5%;
+                    z-index: 2;
+                }
+
+                .unit__last {
+                    width: 25%;
+                    top: 410px;
+                    left: 40%;
+                    
+                }
+            }
+
+            .article__top-titel {
+
+                .main__titel {
+                    margin-top: 265px;
+
+
+                }
+
+                .fa-angle-down {
+                    top: 202px;
+                    padding: 0.40% 0.75%;
+                }
+
+
+            }
+
+            .article__description {
+                width: 92%;
+                margin-left: 4%;
+                margin-top: 176px;
+                
+
+                .specifications {
+                    width: 42%;
+                    padding-right: 4.7%;
+                }
+
+                .article__item {
+                    margin-top: 185px;
+                    margin-right: 8%;
+
+                }
+
+                a {
+                    font-size: 0.80rem;
+                    letter-spacing: 0.0525rem;
+                }
+                h4 {
+                    width: 80%;
+                }
+
+                .box__description {
+                    margin-top: 60px;
+                    width: 30.5%;
+
+                }
+            }
+        }
+
+        .section__person {
+            
+            width: 92%;
+            margin-left: 4%;
+
+            .section__item {
+                .slider {
+                    .slider__item {
+                        
+                        .content__box {
+                            display: flex;
+                            flex-wrap: wrap;
+
+                            .desktop__sd {
+                                width: 30.5%;
+                                position: relative;
+                                top: 0;
+                                left: 0;
+                            }
+
+                            .img__mobile,
+                            .tablet__sd,
+                            .desktop__hd,
+                            .tablet__hd {
+                                position: absolute;
+                                top: -9999px;
+                                left: -9999px;
+                            }
+
+                            .box__person {
+                                width: 62%;
+                                margin-left: 2%;
+
+                            }
+
+
+
+                        }
+
+
+                    }
+
+                }
+
+            }
+
+        }
+
+
+        .clients {
+            .clients__titel {
+                margin-top: 53px;
+            }
+
+        }
+
+        .section__publication {
+            
+            a {
+                width: 92%;
+                
+
+            }
+
+            h2 {
+                width: 92%;
+                
+
+            }
+
+            .publication__box {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: row;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                width: 96%;
+                margin-left: 2%;
+
+
+
+                .publication {
+                    width: 30%;
+                    height: 450px;
+                    h4 {
+                        width: 85%;
+                    }
+
+                    p {
+                        width: 85%;
+                    }
+                    
+                    &:last-of-type {
+                        
+                        width: 32%;
+                        height: 450px;
+
+                        h4 {
+                            width: 85%;
+                        }
+
+                        p {
+                            width: 85%;
+                        }
+
+                        .third-publication {
+                            background-position: 0 0;
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        .footer__wrapper {
+            .footer {
+
+                padding-top: 5px;
+                width: 92%;
+                margin-left: 4%;
+
+                .location__contact,
+                .map__link,
+                .copyright,
+                .fa-circle:first-of-type {
+                    margin-top: 22px;
+                }
+
+                .location__contact {
+                    width: auto;
+
+                }
+
+                .map__link {
+                    order: -2;
+
+                }
+
+                .copyright {
+                    margin-left: 57.5%;
+                }
+
+                .fa-circle {
+
+                    margin-right: 0.9%;
+                    margin-left: 0.9%;
+
+                    
+
+                }
+
+       
+            }
+        }
+
+    }
+}
