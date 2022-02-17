@@ -231,7 +231,7 @@
 
 }
 
-@media screen and (min-width: 768px) { //tabletSD
+@media screen and (min-width: 768px) { //tablet SD
     .wrapper {
         .section__main {
             .header {
@@ -389,7 +389,7 @@
 
 }
 
-@media screen and (min-width: 1024px) { //tabletHD
+@media screen and (min-width: 1024px) { //tablet HD
     .wrapper {
         .section__main {
             .header {
@@ -469,6 +469,37 @@
                     left: 51%;
                     width: 40.5%;
                     background: none;
+                }
+
+            }
+        }
+
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) { //desktop SD
+    .wrapper {
+        .section__main {
+            .header {
+                position: none;
+                display: flex;
+                .header__section {
+                    margin-left: 29%;
+                    .header__contact {
+                        width: 53%;
+                    }
+
+                }
+
+                .header__menu {
+                    margin-left: 4%;
+                }
+                .nav {
+                    top: 92px;
+                    left: 64.5%;
+                    width: 28.5%;
                 }
 
             }
