@@ -3,13 +3,15 @@ let slideIndex = 1;
 showSlides(slideIndex);
 
 /* Увеличиваем индекс на 1 — показываем следующий слайд*/
-function nextSlide() {
-    showSlides(slideIndex += 1);
+function indicatorOne() {
+    showSlides(slideIndex = 1);
 }
 
-/* Уменьшает индекс на 1 — показываем предыдущий слайд*/
-function previousSlide() {
-    showSlides(slideIndex -= 1);  
+function indicatorTwo() {
+    showSlides(slideIndex = 2);  
+}
+function indicatorThree() {
+    showSlides(slideIndex = 3);  
 }
 
 /* Устанавливаем текущий слайд */

@@ -198,12 +198,13 @@
                         background: rgba(245, 245, 250, 1);
                         border-radius: 10px;
                         margin-top: 51px;
+
                         .content__box {
 
                             .img__mobile {
                                 width: 100%;
                             }
-    
+
                             .tablet__sd,
                             .tablet__hd,
                             .desktop__hd,
@@ -212,11 +213,12 @@
                                 top: -9999px;
                                 left: -9999px;
                             }
+
                             .box__person {
                                 width: 80%;
                                 margin-left: 10%;
                                 margin-top: 25px;
-    
+
                                 .chapter {
                                     a {
                                         font-size: 0.875rem;
@@ -228,7 +230,7 @@
                                         color: #24A3FF;
                                     }
                                 }
-    
+
                                 .person__desription {
                                     font-weight: bold;
                                     font-size: 1.87rem;
@@ -237,9 +239,9 @@
                                     -webkit-background-clip: text;
                                     background-clip: text;
                                     background-image: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
-    
+
                                 }
-    
+
                                 .person__name {
                                     margin-top: 33px;
                                     margin-bottom: 6px;
@@ -248,7 +250,7 @@
                                     line-height: 1.25rem;
                                     color: #B3B3BA;
                                 }
-    
+
                                 .person__specifics {
                                     margin-bottom: 30px;
                                     font-weight: normal;
@@ -271,21 +273,23 @@
 
                     }
 
-                    
+                    .wrapper__indicator {
+                        margin-top: 20px;
 
-                    .next {
-                        cursor: pointer;
-                        // position: relative;
-                        // top: 10px;
-                        // right: -100px;
-                        top: 35%;
-                        color: rgb(56, 31, 168);
-                        // transition: 0.6s ease;
+                        .indicator {
+                            button {
+                                margin: 5.6px;
+                                width: 16px;
+                                height: 16px;
+                                border-radius: 50%;
+                                border: none;
+                                background-color: #24A3FF;
+                            }
 
-                        &:active {
-                            color: #B3B3BA;
+
                         }
                     }
+
                 }
 
             }
@@ -298,7 +302,8 @@
             align-items: center;
 
             .clients__titel {
-                margin: 28px 0;
+                margin-top: 55px;
+                margin-bottom: 30px;
                 font-weight: bold;
                 font-size: 0.875rem;
                 line-height: 1.06rem;
@@ -666,43 +671,52 @@
             }
         }
 
+
         .section__person {
             width: 85%;
             margin-left: 7.5%;
 
-            .carousel {
-                .carousel-inner {
-                    height: 1065px;
+            .section__item {
+                width: $size;
 
-                    .carousel-item {
-                        .tablet__sd {
-                            width: 100%;
-                            position: relative;
-                            top: 0;
-                            left: 0;
-                        }
+                .slider {
 
-                        .img__mobile,
-                        .tablet__hd,
-                        .desktop__hd,
-                        .desktop__sd {
-                            position: absolute;
-                            top: -9999px;
-                            left: -9999px;
-                        }
+                    .slider__item {
 
-                        .box__person {
-                            width: 90%;
-                            margin-left: 5%;
+                        .content__box {
 
-
-                            .person__desription {
-                                font-size: 2.375rem;
-                                line-height: 2.875rem;
+                            .tablet__sd {
+                                width: 100%;
+                                position: relative;
+                                top: 0;
+                                left: 0;
                             }
 
+                            .img__mobile,
+                            .tablet__hd,
+                            .desktop__hd,
+                            .desktop__sd {
+                                position: absolute;
+                                top: -9999px;
+                                left: -9999px;
+                            }
+
+                            .box__person {
+                                width: 90%;
+                                margin-left: 5%;
+
+
+                                .person__desription {
+                                    font-size: 2.375rem;
+                                    line-height: 2.875rem;
+                                }
+                            }
+
+
+
                         }
 
+                        
                     }
 
                 }
@@ -712,20 +726,8 @@
         }
 
         .clients {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
             .clients__titel {
-                margin: 28px 0;
-                font-weight: bold;
-                font-size: 0.875rem;
-                line-height: 1.06rem;
-                letter-spacing: 1px;
-                text-transform: uppercase;
-                color: rgba(50, 50, 100, 1);
-            }
-
+                margin-top: 58px;            }
             .img__wrapper {
                 flex-direction: row;
                 flex-wrap: wrap;
