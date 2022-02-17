@@ -716,7 +716,7 @@
 
                         }
 
-                        
+
                     }
 
                 }
@@ -727,7 +727,9 @@
 
         .clients {
             .clients__titel {
-                margin-top: 58px;            }
+                margin-top: 58px;
+            }
+
             .img__wrapper {
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -992,41 +994,49 @@
             width: 88%;
             margin-left: 6%;
 
-            .carousel {
-                .carousel-inner {
-                    height: 665px;
+            .section__item {
 
-                    .carousel-item {
-                        display: flex;
-                        flex-wrap: wrap;
+                .slider {
 
-                        .tablet__hd {
-                            width: 44.5%;
-                            position: relative;
-                            top: 0;
-                            left: 0;
-                        }
+                    .slider__item {
 
-                        .img__mobile,
-                        .tablet__sd,
-                        .desktop__hd,
-                        .desktop__sd {
-                            position: absolute;
-                            top: -9999px;
-                            left: -9999px;
-                        }
+                        .content__box {
+                            display: flex;
+                            flex-wrap: wrap;
 
-                        .box__person {
-                            width: 48%;
-                            // margin-left: 5%;
-
-
-                            .person__desription {
-                                font-size: 2.375rem;
-                                line-height: 2.875rem;
+                            .tablet__hd {
+                                width: 44.5%;
+                                position: relative;
+                                top: 0;
+                                left: 0;
                             }
 
+                            .img__mobile,
+                            .tablet__sd,
+                            .desktop__hd,
+                            .desktop__sd {
+                                position: absolute;
+                                top: -9999px;
+                                left: -9999px;
+                            }
+
+                            .box__person {
+                                width: 48%;
+                                margin-left: 3%;
+                                margin-top: 30px;
+
+
+                                .person__desription {
+                                    font-size: 2.375rem;
+                                    line-height: 2.875rem;
+                                }
+
+                            }
+
+
+
                         }
+
 
                     }
 
@@ -1036,52 +1046,14 @@
 
         }
 
-        .clients {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
 
-            .clients__titel {
-                margin: 28px 0;
-                font-weight: bold;
-                font-size: 0.875rem;
-                line-height: 1.06rem;
-                letter-spacing: 1px;
-                text-transform: uppercase;
-                color: rgba(50, 50, 100, 1);
-            }
+        .clients {
+
 
             .img__wrapper {
-                flex-direction: row;
-                flex-wrap: wrap;
 
                 .color__block {
-                    width: 33.3333%;
-                }
-
-                .clicky {
-                    display: flex;
-
-                }
-
-                .eco-lease {
-                    display: flex;
-                }
-
-                .infra-tek {
-                    display: flex;
-                }
-
-                .city-park {
-                    display: flex;
-                }
-
-                .art-print {
-                    display: flex;
-                }
-
-                .ultimate-card {
-                    display: flex;
+                    width: 25%;
                 }
 
             }
@@ -1091,17 +1063,14 @@
 
 
             a {
-                width: 85%;
-                margin-top: 30px;
-                font-size: 0.875rem;
+                width: 88%;
+                
 
             }
 
             h2 {
-                width: 85%;
-                margin-top: 10px;
-                font-size: 2.375rem;
-                line-height: 2.875rem;
+                width: 88%;
+                
 
             }
 
@@ -1115,25 +1084,25 @@
 
 
                 .publication {
-                    width: 45%;
-                    height: 514px;
+                    width: 31%;
+                    height: 556px;
 
-
+                    
                     &:last-of-type {
-                        width: 94%;
-                        height: 388px;
+                        
+                        width: 31%;
+                        height: 556px;
 
                         h4 {
-                            width: 90%;
+                            width: 80%;
                         }
 
                         p {
-                            width: 91%;
+                            width: 80%;
                         }
 
                         .third-publication {
-                            background-image: url(../img/publications/publication_img_3.svg);
-                            background-position: 0 -90px;
+                            background-position: 0 0;
                         }
                     }
 
@@ -1143,26 +1112,21 @@
         }
 
         .footer__wrapper {
-            background: #F5F5FA;
-            width: 100%;
-
             .footer {
-                flex-direction: row;
-                flex-wrap: wrap;
-                padding-top: 10px;
-                width: 85%;
-                margin-left: 7.5%;
+
+                padding-top: 5px;
+                width: 88%;
+                margin-left: 6%;
 
                 .location__contact,
                 .map__link,
                 .copyright,
                 .fa-circle:first-of-type {
-                    margin-top: 17px;
+                    margin-top: 20px;
                 }
 
                 .location__contact {
-                    width: 30.5%;
-                    order: -2;
+                    width: 22%;
 
                 }
 
@@ -1172,32 +1136,19 @@
                 }
 
                 .copyright {
-                    order: -1;
-                    margin-left: 14%;
+                    margin-left: 38%;
                 }
 
                 .fa-circle {
-                    margin: 0;
-                    display: inline;
-                    font-size: 0.5rem;
-                    color: #B3B3BA;
-                    margin-right: 1.5%;
-                    margin-left: 1.5%;
 
-                    &:first-of-type {
-                        order: -2;
-                    }
+                    margin-right: 0.9%;
+                    margin-left: 0.9%;
+
+                    
 
                 }
 
-                .social__networking,
-                .contact__number,
-                .contact__mail,
-                .fa-circle:nth-of-type(2),
-                .fa-circle:nth-of-type(3) {
-                    margin-top: 22px;
-                    margin-bottom: 25px;
-                }
+       
             }
         }
 
