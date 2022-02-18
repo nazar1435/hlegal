@@ -1287,7 +1287,6 @@
                 justify-content: space-around;
                 flex-wrap: wrap;
                 width: 96%;
-                margin-left: 2%;
 
 
 
@@ -1372,7 +1371,6 @@
 @media screen and (min-width: 1920px) {
     .wrapper {
         .section__main {
-            margin-bottom: 30px;
 
             .decoration__element {
 
@@ -1393,56 +1391,46 @@
             .article__top-titel {
 
                 .main__titel {
-                    margin-top: 265px;
+                    margin-top: 365px;
 
 
                 }
 
                 .fa-angle-down {
-                    top: 202px;
-                    padding: 0.40% 0.75%;
+                    top: 402px;
+                    padding: 0.40% 0.65%;
                 }
 
 
             }
 
             .article__description {
-                width: 92%;
-                margin-left: 4%;
-                margin-top: 176px;
+                width: 84%;
+                margin-left: 8%;
+                margin-top: 280px;
                 
-
+                
                 .specifications {
-                    width: 42%;
-                    padding-right: 4.7%;
+                    width: 35%;
+                    padding-right: 3.5%;
                 }
-
+                
                 .article__item {
-                    margin-top: 185px;
-                    margin-right: 8%;
+                    width:53%;
+                    margin-top: 210px;
+                    margin-right: 8.2%;
+                    margin-left: 0;
 
                 }
 
-                a {
-                    font-size: 0.80rem;
-                    letter-spacing: 0.0525rem;
-                }
-                h4 {
-                    width: 80%;
-                }
-
-                .box__description {
-                    margin-top: 60px;
-                    width: 30.5%;
-
-                }
+               
             }
         }
 
         .section__person {
             
-            width: 92%;
-            margin-left: 4%;
+            width: 83%;
+            margin-left: 8.5%;
 
             .section__item {
                 .slider {
@@ -1452,8 +1440,8 @@
                             display: flex;
                             flex-wrap: wrap;
 
-                            .desktop__sd {
-                                width: 30.5%;
+                             .desktop__hd {
+                                width: 25%;
                                 position: relative;
                                 top: 0;
                                 left: 0;
@@ -1461,7 +1449,7 @@
 
                             .img__mobile,
                             .tablet__sd,
-                            .desktop__hd,
+                            .desktop__sd,
                             .tablet__hd {
                                 position: absolute;
                                 top: -9999px;
@@ -1469,8 +1457,7 @@
                             }
 
                             .box__person {
-                                width: 62%;
-                                margin-left: 2%;
+                                width: 70%;
 
                             }
 
@@ -1489,8 +1476,24 @@
 
 
         .clients {
+            margin-bottom: 60px;
             .clients__titel {
-                margin-top: 53px;
+                margin-top: 56px;
+            }
+            .img__wrapper {
+                width: 90%;
+                .hilel {
+                    border-radius: 10px 0 0 0;
+                }
+                .look {
+                    border-radius: 0 10px 0 0;
+                }
+                .infra-tek {
+                    border-radius: 0 0 0 10px;
+                }
+                .ultimate-card {
+                    border-radius: 0 0 10px 0;
+                }
             }
 
         }
@@ -1498,31 +1501,26 @@
         .section__publication {
             
             a {
-                width: 92%;
+                width: 83.3%;
                 
 
             }
 
             h2 {
-                width: 92%;
+                width: 83.3%;
                 
 
             }
 
             .publication__box {
-                display: flex;
-                align-items: flex-start;
-                flex-direction: row;
-                justify-content: space-around;
-                flex-wrap: wrap;
-                width: 96%;
-                margin-left: 2%;
+                width: 85%;
 
 
 
                 .publication {
-                    width: 30%;
-                    height: 450px;
+                    margin-left: 0;
+                    width: 31%;
+                    height: 430px;
                     h4 {
                         width: 85%;
                     }
@@ -1533,8 +1531,8 @@
                     
                     &:last-of-type {
                         
-                        width: 32%;
-                        height: 450px;
+                        width: 31%;
+                        height: 430px;
 
                         h4 {
                             width: 85%;
@@ -1544,9 +1542,7 @@
                             width: 85%;
                         }
 
-                        .third-publication {
-                            background-position: 0 0;
-                        }
+                        
                     }
 
                 }
@@ -1558,28 +1554,14 @@
             .footer {
 
                 padding-top: 5px;
-                width: 92%;
-                margin-left: 4%;
+                width: 83%;
+                margin-left: 8.5%;
 
-                .location__contact,
-                .map__link,
-                .copyright,
-                .fa-circle:first-of-type {
-                    margin-top: 22px;
-                }
-
-                .location__contact {
-                    width: auto;
-
-                }
-
-                .map__link {
-                    order: -2;
-
-                }
+                
 
                 .copyright {
-                    margin-left: 57.5%;
+                    margin-left: 64%;
+
                 }
 
                 .fa-circle {
