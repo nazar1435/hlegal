@@ -96,6 +96,9 @@ a {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .wrapper .section__main .header .header__section .header__contact .fa-circle {
     display: none;
@@ -286,12 +289,12 @@ a {
             justify-content: space-between;
     width: 12.3%;
     padding: 0;
-    margin-top: 48px;
-    margin-left: 8.2%;
+    margin-top: 35px;
+    margin-left: 8%;
   }
   .wrapper .section__main .header .header__section .language__menu .language__item {
     margin: 0;
-    padding: 6%;
+    padding: 8%;
   }
   .wrapper .section__main .header .header__section .header__contact {
     width: 50%;
@@ -304,7 +307,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 48px;
+    margin-top: 35px;
   }
   .wrapper .section__main .header .header__section .header__contact .fa-circle {
     display: inline;
@@ -380,7 +383,7 @@ a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    top: 195px;
+    top: 180px;
     left: 5.5%;
     width: 54%;
     background: none;
@@ -557,6 +560,8 @@ a {
   .wrapper .section__main {
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
     border-radius: 0 0 10px 10px;
+    -webkit-box-shadow: 0 30px 0 -20px #CACADB, 0 60px 0 -40px #E7E7F2;
+            box-shadow: 0 30px 0 -20px #CACADB, 0 60px 0 -40px #E7E7F2;
   }
   .wrapper .section__main .decoration__element {
     position: absolute;
@@ -590,7 +595,7 @@ a {
   }
   .wrapper .section__main .article__top-titel .main__titel {
     width: 70%;
-    margin: 118px 0;
+    margin: 138px 0;
     font-size: 2.375rem;
     font-weight: 700;
     line-height: 2.875rem;
@@ -598,7 +603,7 @@ a {
     color: #fff;
   }
   .wrapper .section__main .article__top-titel .fa-angle-down {
-    margin-top: 413px;
+    margin-top: 433px;
     position: absolute;
     font-size: 2rem;
     padding: 1% 2.5%;
@@ -618,7 +623,7 @@ a {
     margin-left: 7.5%;
   }
   .wrapper .section__main .article__description .specifications {
-    margin-top: 140px;
+    margin-top: 120px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -965,7 +970,7 @@ a {
   .wrapper .section__publication .publication__box .publication h3 {
     width: 80%;
     margin-left: 30px;
-    margin-top: 27px;
+    margin-top: 30px;
     font-weight: bold;
     font-size: 1rem;
     line-height: 1.25rem;
@@ -1011,6 +1016,7 @@ a {
     margin-left: 10%;
     padding-top: 30px;
     border-top: 2px solid #E6E6F0;
+    padding-bottom: 20px;
   }
   .wrapper .footer__wrapper .footer .fa-circle {
     display: none;
@@ -1064,29 +1070,29 @@ a {
     width: 100%;
   }
   .wrapper .section__main .decoration__element .unit__first {
-    width: 62%;
+    width: 58.5%;
     position: relative;
     top: 0;
-    left: -10%;
+    left: -8.1%;
     z-index: 2;
   }
   .wrapper .section__main .decoration__element .unit__last {
     position: absolute;
-    width: 60%;
-    top: 450px;
-    left: 25.5%;
+    width: 63%;
+    top: 420px;
+    left: 25%;
   }
   .wrapper .section__main .article__top-titel .main__titel {
     width: 100%;
-    margin-top: 300px;
+    margin-top: 320px;
   }
   .wrapper .section__main .article__top-titel .fa-angle-down {
-    top: 391px;
+    top: 346px;
     font-size: 1.7rem;
     padding: 0.9% 1.5%;
   }
   .wrapper .section__main .article__description {
-    margin-top: 298px;
+    margin-top: 289px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-orient: horizontal;
@@ -1698,12 +1704,12 @@ a {
     margin-top: 365px;
   }
   .wrapper .section__main .article__top-titel .fa-angle-down {
-    top: 402px;
+    top: 383px;
     padding: 0.40% 0.65%;
   }
   .wrapper .section__main .article__description {
-    width: 84%;
-    margin-left: 8%;
+    width: 83%;
+    margin-left: 8.3%;
     margin-top: 280px;
   }
   .wrapper .section__main .article__description .specifications {
@@ -1712,9 +1718,12 @@ a {
   }
   .wrapper .section__main .article__description .article__item {
     width: 53%;
-    margin-top: 210px;
+    margin-top: 190px;
     margin-right: 8.2%;
     margin-left: 0;
+  }
+  .wrapper .section__main .article__description a {
+    margin-top: 46px;
   }
   .wrapper .section__person {
     width: 83%;
